@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apart Research - Accelerating AI Safety Research</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -10,228 +10,357 @@
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <style>
-        @keyframes scroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
         }
-        .animate-scroll {
-            animation: scroll 20s linear infinite;
+        100% {
+          transform: translateX(-50%);
         }
+      }
+      .animate-scroll {
+        animation: scroll 20s linear infinite;
+      }
 
-        /* Custom color styles */
-        .bg-research { background-color: #54B8F8; }
-        .text-research { color: #54B8F8; }
-        .bg-safety { background-color: #82FBA2; }
-        .text-safety { color: #82FBA2; }
-        .bg-funding { background-color: #FAE364; }
-        .text-funding { color: #FAE364; }
-        .bg-seldon { background-color: #EB624F; }
-        .text-seldon { color: #EB624F; }
+      /* Custom color styles */
+      .bg-research {
+        background-color: #54b8f8;
+      }
+      .text-research {
+        color: #54b8f8;
+      }
+      .bg-safety {
+        background-color: #82fba2;
+      }
+      .text-safety {
+        color: #82fba2;
+      }
+      .bg-funding {
+        background-color: #fae364;
+      }
+      .text-funding {
+        color: #fae364;
+      }
+      .bg-seldon {
+        background-color: #eb624f;
+      }
+      .text-seldon {
+        color: #eb624f;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="min-h-screen bg-white">
-        <!-- Hero Section -->
-        <header class="max-w-5xl mx-auto px-8 py-16">
-            <h1 class="text-4xl font-bold mb-6 text-center">
-                Accelerating AI Safety Research
-            </h1>
-            <p class="text-xl text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-                Fast-tracking promising ideas from inception to publication through global research sprints and supported development pathways.
-            </p>
+      <!-- Hero Section -->
+      <header class="max-w-5xl mx-auto px-8 py-16">
+        <h1 class="text-4xl font-bold mb-6 text-center">
+          Accelerating AI Safety Research with Apart Research
+        </h1>
+        <p class="text-xl text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          Fast-tracking promising ideas from inception to publication through
+          global research sprints and supported development pathways.
+        </p>
 
-            <!-- Impact Numbers -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-                <div class="text-center">
-                    <div class="text-2xl font-bold mb-1">22</div>
-                    <div class="text-sm text-gray-600">AI Safety Publications</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-2xl font-bold mb-1">450+</div>
-                    <div class="text-sm text-gray-600">Pilot Experiments</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-2xl font-bold mb-1">42</div>
-                    <div class="text-sm text-gray-600">Research Sprints</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-2xl font-bold mb-1">3,000+</div>
-                    <div class="text-sm text-gray-600">Global Participants</div>
-                </div>
-            </div>
-        </header>
-
-        <!-- Partner Scroll -->
-        <div class="bg-gray-50 py-8 mb-16">
-            <p class="text-center text-sm font-medium text-gray-500 mb-4">
-                COLLABORATING WITH LEADING ORGANIZATIONS
-            </p>
-            <div class="relative overflow-hidden h-16 bg-gray-50">
-                <div class="absolute whitespace-nowrap animate-scroll">
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">DeepMind</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">METR</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">Oxford</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">Anthropic</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">Apollo Research</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">Entrepreneur First</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">OpenAI</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">Cooperative AI Foundation</span>
-                    <!-- Duplicate for infinite scroll -->
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">DeepMind</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">METR</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">Oxford</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">Anthropic</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">Apollo Research</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">Entrepreneur First</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">OpenAI</span>
-                    <span class="inline-block px-8 py-4 text-gray-600 font-medium">Cooperative AI Foundation</span>
-                </div>
-            </div>
+        <!-- Impact Numbers -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+          <div class="text-center">
+            <div class="text-2xl font-bold mb-1">22</div>
+            <div class="text-sm text-gray-600">AI Safety Publications</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold mb-1">450+</div>
+            <div class="text-sm text-gray-600">Pilot Experiments</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold mb-1">42</div>
+            <div class="text-sm text-gray-600">Research Sprints</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold mb-1">3,000+</div>
+            <div class="text-sm text-gray-600">Global Participants</div>
+          </div>
         </div>
+      </header>
 
-        <!-- Main Content -->
-        <main class="max-w-5xl mx-auto px-8 mb-16">
-            <div class="grid gap-8 md:grid-cols-2">
-                <!-- Research Organizations -->
-                <div class="bg-gray-50 p-8 rounded-lg">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="rounded-full p-2 bg-research">
-                            <i data-lucide="users" class="w-6 h-6 text-black"></i>
-                        </div>
-                        <h2 class="text-xl font-semibold">Research Organizations</h2>
-                    </div>
-                    <div class="space-y-4 mb-6">
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-research"></i>
-                            <p class="text-gray-600">Run focused research sprints with 200+ skilled contributors</p>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-research"></i>
-                            <p class="text-gray-600">Convert successful pilots into conference papers</p>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-research"></i>
-                            <p class="text-gray-600">Access our community of 3,000+ technical contributors</p>
-                        </div>
-                    </div>
-                    <div class="p-4 bg-white rounded-md mb-6">
-                        <p class="text-sm italic text-gray-600">
-                            "In collaboration with METR, a single Apart hackathon brought together over 100 participants, generating 230 novel evaluation ideas and 28 practical implementations."
-                        </p>
-                    </div>
-                    <a href="mailto:hi@apartresearch.com?subject=Research Organization Collaboration&body=Hi Apart Research,%0D%0A%0D%0AI'm interested in collaboration opportunities.%0D%0A%0D%0AOrganization:%0D%0ARole:%0D%0AResearch interests:%0D%0APreferred timeline:%0D%0ABudget:%0D%0A%0D%0A"
-                       class="inline-flex items-center gap-2 px-6 py-3 rounded-md text-black hover:opacity-90 bg-research">
-                        Start Collaboration <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                    </a>
-                </div>
+      <!-- Partner Scroll -->
+      <div class="bg-gray-50 py-8 mb-16">
+        <p class="text-center text-sm font-medium text-gray-500 mb-4">
+          COLLABORATING WITH LEADING ORGANIZATIONS
+        </p>
+        <div class="relative overflow-hidden h-16 bg-gray-50">
+          <div class="absolute whitespace-nowrap animate-scroll">
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >DeepMind</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >METR</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >Oxford</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >Anthropic</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >Apollo Research</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >Entrepreneur First</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >OpenAI</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >Cooperative AI Foundation</span
+            >
+            <!-- Duplicate for infinite scroll -->
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >DeepMind</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >METR</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >Oxford</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >Anthropic</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >Apollo Research</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >Entrepreneur First</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >OpenAI</span
+            >
+            <span class="inline-block px-8 py-4 text-gray-600 font-medium"
+              >Cooperative AI Foundation</span
+            >
+          </div>
+        </div>
+      </div>
 
-                <!-- AI Safety Researchers -->
-                <div class="bg-gray-50 p-8 rounded-lg">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="rounded-full p-2 bg-safety">
-                            <i data-lucide="globe-2" class="w-6 h-6 text-black"></i>
-                        </div>
-                        <h2 class="text-xl font-semibold">AI Safety Researchers</h2>
-                    </div>
-                    <div class="space-y-4 mb-6">
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-safety"></i>
-                            <p class="text-gray-600">Disseminate and crowdsource research ideas</p>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-safety"></i>
-                            <p class="text-gray-600">Mentor promising research teams</p>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-safety"></i>
-                            <p class="text-gray-600">Co-author with emerging talent</p>
-                        </div>
-                    </div>
-                    <div class="p-4 bg-white rounded-md mb-6">
-                        <p class="text-sm italic text-gray-600">
-                            "I've now written two papers in interpretability thanks to Apart's fellowship program. The Apart team guided me through the initial steps of developing these research ideas, which I'm continuing in my graduate studies."
-                        </p>
-                        <p class="text-sm font-medium mt-2">- Alex Foote, Data Scientist</p>
-                    </div>
-                    <a href="mailto:hi@apartresearch.com?subject=Collaborating on AI Safety Research&body=Hi Apart Research,%0D%0A%0D%0AI'm interested in collaborating on AI safety research.%0D%0A%0D%0ACurrent role/affiliation:%0D%0AResearch interests:%0D%0APreferred mode of engagement (coauthoring / mentoring / contribute to research sprints):%0D%0A%0D%0A"
-                       class="inline-flex items-center gap-2 px-6 py-3 rounded-md text-black hover:opacity-90 bg-safety">
-                        Explore Opportunities <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                    </a>
-                </div>
-
-                <!-- Funding Partners -->
-                <div class="bg-gray-50 p-8 rounded-lg">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="rounded-full p-2 bg-funding">
-                            <i data-lucide="hand-heart" class="w-6 h-6 text-black"></i>
-                        </div>
-                        <h2 class="text-xl font-semibold">Funding Partners</h2>
-                    </div>
-                    <div class="space-y-4 mb-6">
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-funding"></i>
-                            <p class="text-gray-600">Support targeted research sprints on your priority areas</p>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-funding"></i>
-                            <p class="text-gray-600">Get rapid, concrete outputs through our proven pipeline</p>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-funding"></i>
-                            <p class="text-gray-600">Access a global network of AI safety talent</p>
-                        </div>
-                    </div>
-                    <div class="p-4 bg-white rounded-md mb-6">
-                        <p class="text-sm italic text-gray-600">
-                            "Apart's fellows have had research accepted at leading AI conferences including NeurIPS, ICLR, ACL, and EMNLP - showing how targeted support can help emerging researchers contribute to core technical AI safety work."
-                        </p>
-                    </div>
-                    <a href="mailto:hi@apartresearch.com?subject=Funding and Sponsorship&body=Hi Apart Research,%0D%0A%0D%0AI'm interested in exploring funding and sponsorship opportunities.%0D%0A%0D%0AOrganization:%0D%0ARole:%0D%0AAreas of interest (specific research areas / global talent / underserved communities / public outreach):%0D%0APreferred engagement timeline:%0D%0A%0D%0A"
-                       class="inline-flex items-center gap-2 px-6 py-3 rounded-md text-black hover:opacity-90 bg-funding">
-                        Partner With Us <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                    </a>
-                </div>
-
-                <!-- Seldon -->
-                <div class="bg-gray-50 p-8 rounded-lg">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="rounded-full p-2 bg-seldon">
-                            <i data-lucide="rocket" class="w-6 h-6 text-black"></i>
-                        </div>
-                        <h2 class="text-xl font-semibold">Seldon Accelerator</h2>
-                    </div>
-                    <div class="space-y-4 mb-6">
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-seldon"></i>
-                            <p class="text-gray-600">Launch your AI safety venture with top-tier backing</p>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-seldon"></i>
-                            <p class="text-gray-600">Tap into cutting-edge technical talent</p>
-                        </div>
-                        <div class="flex items-start gap-2">
-                            <i data-lucide="check" class="w-5 h-5 mt-1 flex-shrink-0 text-seldon"></i>
-                            <p class="text-gray-600">Join a pioneering community of AI safety founders</p>
-                        </div>
-                    </div>
-                    <div class="p-4 bg-white rounded-md mb-6">
-                        <p class="text-sm italic text-gray-600">
-                            "Seldon helped us refine our approach and connect with the right partners to accelerate our AI safety venture."
-                        </p>
-                        <p class="text-sm font-medium mt-2">- Seldon Alumni</p>
-                    </div>
-                    <a href="https://seldonaccelerator.com/apply"
-                       class="inline-flex items-center gap-2 px-6 py-3 rounded-md text-black hover:opacity-90 bg-seldon">
-                        Apply Now <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                    </a>
-                </div>
+      <!-- Main Content -->
+      <main class="max-w-5xl mx-auto px-8 mb-16">
+        <div class="grid gap-8 md:grid-cols-2">
+          <!-- Research Organizations -->
+          <div class="bg-gray-50 p-8 rounded-lg">
+            <div class="flex items-center gap-3 mb-6">
+              <div class="rounded-full p-2 bg-research">
+                <i data-lucide="users" class="w-6 h-6 text-black"></i>
+              </div>
+              <h2 class="text-xl font-semibold">Research Organizations</h2>
             </div>
-        </main>
+            <div class="space-y-4 mb-6">
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-research"
+                ></i>
+                <p class="text-gray-600">
+                  Run focused research sprints with 200+ skilled contributors
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-research"
+                ></i>
+                <p class="text-gray-600">
+                  Convert successful pilots into conference papers
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-research"
+                ></i>
+                <p class="text-gray-600">
+                  Access our community of 3,000+ technical contributors
+                </p>
+              </div>
+            </div>
+            <div class="p-4 bg-white rounded-md mb-6">
+              <p class="text-sm italic text-gray-600">
+                "In collaboration with METR, a single Apart hackathon brought
+                together over 100 participants, generating 230 novel evaluation
+                ideas and 28 practical implementations."
+              </p>
+            </div>
+            <a
+              href="mailto:hi@apartresearch.com?subject=Research Organization Collaboration&body=Hi Apart Research,%0D%0A%0D%0AI'm interested in collaboration opportunities.%0D%0A%0D%0AOrganization:%0D%0ARole:%0D%0AResearch interests:%0D%0APreferred timeline:%0D%0ABudget:%0D%0A%0D%0A"
+              class="inline-flex items-center gap-2 px-6 py-3 rounded-md text-black hover:opacity-90 bg-research"
+            >
+              Start Collaboration
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- AI Safety Researchers -->
+          <div class="bg-gray-50 p-8 rounded-lg">
+            <div class="flex items-center gap-3 mb-6">
+              <div class="rounded-full p-2 bg-safety">
+                <i data-lucide="globe-2" class="w-6 h-6 text-black"></i>
+              </div>
+              <h2 class="text-xl font-semibold">AI Safety Researchers</h2>
+            </div>
+            <div class="space-y-4 mb-6">
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-safety"
+                ></i>
+                <p class="text-gray-600">
+                  Disseminate and crowdsource research ideas
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-safety"
+                ></i>
+                <p class="text-gray-600">Mentor promising research teams</p>
+              </div>
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-safety"
+                ></i>
+                <p class="text-gray-600">Co-author with emerging talent</p>
+              </div>
+            </div>
+            <div class="p-4 bg-white rounded-md mb-6">
+              <p class="text-sm italic text-gray-600">
+                "I've now written two papers in interpretability thanks to
+                Apart's fellowship program. The Apart team guided me through the
+                initial steps of developing these research ideas, which I'm
+                continuing in my graduate studies."
+              </p>
+              <p class="text-sm font-medium mt-2">
+                - Alex Foote, Data Scientist
+              </p>
+            </div>
+            <a
+              href="mailto:hi@apartresearch.com?subject=Collaborating on AI Safety Research&body=Hi Apart Research,%0D%0A%0D%0AI'm interested in collaborating on AI safety research.%0D%0A%0D%0ACurrent role/affiliation:%0D%0AResearch interests:%0D%0APreferred mode of engagement (coauthoring / mentoring / contribute to research sprints):%0D%0A%0D%0A"
+              class="inline-flex items-center gap-2 px-6 py-3 rounded-md text-black hover:opacity-90 bg-safety"
+            >
+              Explore Opportunities
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Funding Partners -->
+          <div class="bg-gray-50 p-8 rounded-lg">
+            <div class="flex items-center gap-3 mb-6">
+              <div class="rounded-full p-2 bg-funding">
+                <i data-lucide="hand-heart" class="w-6 h-6 text-black"></i>
+              </div>
+              <h2 class="text-xl font-semibold">Funding Partners</h2>
+            </div>
+            <div class="space-y-4 mb-6">
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-funding"
+                ></i>
+                <p class="text-gray-600">
+                  Support targeted research sprints on your priority areas
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-funding"
+                ></i>
+                <p class="text-gray-600">
+                  Get rapid, concrete outputs through our proven pipeline
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-funding"
+                ></i>
+                <p class="text-gray-600">
+                  Access a global network of AI safety talent
+                </p>
+              </div>
+            </div>
+            <div class="p-4 bg-white rounded-md mb-6">
+              <p class="text-sm italic text-gray-600">
+                "Apart's fellows have had research accepted at leading AI
+                conferences including NeurIPS, ICLR, ACL, and EMNLP - showing
+                how targeted support can help emerging researchers contribute to
+                core technical AI safety work."
+              </p>
+            </div>
+            <a
+              href="mailto:hi@apartresearch.com?subject=Funding and Sponsorship&body=Hi Apart Research,%0D%0A%0D%0AI'm interested in exploring funding and sponsorship opportunities.%0D%0A%0D%0AOrganization:%0D%0ARole:%0D%0AAreas of interest (specific research areas / global talent / underserved communities / public outreach):%0D%0APreferred engagement timeline:%0D%0A%0D%0A"
+              class="inline-flex items-center gap-2 px-6 py-3 rounded-md text-black hover:opacity-90 bg-funding"
+            >
+              Partner With Us <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Seldon -->
+          <div class="bg-gray-50 p-8 rounded-lg">
+            <div class="flex items-center gap-3 mb-6">
+              <div class="rounded-full p-2 bg-seldon">
+                <i data-lucide="rocket" class="w-6 h-6 text-black"></i>
+              </div>
+              <h2 class="text-xl font-semibold">Seldon Accelerator</h2>
+            </div>
+            <div class="space-y-4 mb-6">
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-seldon"
+                ></i>
+                <p class="text-gray-600">
+                  Launch your AI safety venture with top-tier backing
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-seldon"
+                ></i>
+                <p class="text-gray-600">
+                  Tap into cutting-edge technical talent
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <i
+                  data-lucide="check"
+                  class="w-5 h-5 mt-1 flex-shrink-0 text-seldon"
+                ></i>
+                <p class="text-gray-600">
+                  Join a pioneering community of AI safety founders
+                </p>
+              </div>
+            </div>
+            <div class="p-4 bg-white rounded-md mb-6">
+              <p class="text-sm italic text-gray-600">
+                "The future needs founders and architects to design our
+                responsible transition to an AGI future. Join us."
+              </p>
+            </div>
+            <a
+              href="https://seldonaccelerator.com/apply"
+              class="inline-flex items-center gap-2 px-6 py-3 rounded-md text-black hover:opacity-90 bg-seldon"
+            >
+              Apply Now <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+      </main>
     </div>
 
     <script>
-        // Initialize Lucide icons
-        lucide.createIcons();
+      // Initialize Lucide icons
+      lucide.createIcons();
     </script>
-</body>
+  </body>
 </html>
